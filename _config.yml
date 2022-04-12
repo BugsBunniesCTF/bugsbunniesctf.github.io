@@ -1,1 +1,9 @@
+lsi: false
+safe: true
+highlighter: rouge
+
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
 theme: jekyll-theme-slate
