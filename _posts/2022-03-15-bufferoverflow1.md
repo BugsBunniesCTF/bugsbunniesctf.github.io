@@ -1,6 +1,6 @@
 ---
 layout: post
-author: vincent
+author: vincentscode
 ctf: pico-ctf-2022
 ---
 
