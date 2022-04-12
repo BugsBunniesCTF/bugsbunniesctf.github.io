@@ -7,18 +7,15 @@ title: BugsBunnies
 
 <ul>
     {% for post in site.posts %}
-      <h3>{{  }}</h3>
-        <li>
-          <h4><a href="{{ post.url }}">{{ post.ctf }} - {{ post.title }}</a></h2>
-          {{ post.excerpt }}
-        </li>
+    <li>
+        <h4><a href="{{ post.url }}">{{ post.ctf }} - {{ post.title }}</a></h4>
+    </li>
     {% endfor %}
-
 </ul>
 
 <h2>Writeups 2</h2>
 <ul>
-  {% for ctf in site.ctf %}
+  {% for ctf in site.ctfs %}
     {% for post in site.posts %}
       <h3>{{ ctf.name }}</h3>
       {% if post.ctf == ctf.short_name %}
@@ -27,7 +24,7 @@ title: BugsBunnies
         nope: {{ post.ctf }} != {{ ctf.short_name }}
       {% endif %}
         <li>
-          <h4><a href="{{ post.url }}">{{ post.ctf }} - {{ post.title }}</a></h2>
+          <h4><a href="{{ post.url }}">{{ post.ctf }} - {{ post.title }}</a></h4>
           {{ post.excerpt }}
         </li>
     {% endfor %}
