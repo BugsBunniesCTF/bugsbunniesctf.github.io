@@ -1,9 +1,10 @@
 ---
 author: vincentscode
 ctf: pico-ctf-2022
+title: Buffer Overflow 1
 ---
 
-# Buffer Overflow 1
+# {{ page.title }}
 Simple Buffer Overflow.
 
 ```python
