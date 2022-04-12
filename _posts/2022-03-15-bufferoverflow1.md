@@ -1,5 +1,4 @@
 ---
-layout: post
 author: vincentscode
 ctf: pico-ctf-2022
 ---
