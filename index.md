@@ -4,6 +4,8 @@ title: BugsBunnies
 <h1>{{ page.title }}</h1>
 
 <h2>Writeups</h2>
+
+<ul>
     {% for post in site.posts %}
       <h3>{{  }}</h3>
         <li>
@@ -12,6 +14,9 @@ title: BugsBunnies
         </li>
     {% endfor %}
 
+</ul>
+
+<h2>Writeups 2</h2>
 <ul>
   {% for ctf in site.ctf %}
     {% for post in site.posts %}
