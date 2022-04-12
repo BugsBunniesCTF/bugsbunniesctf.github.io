@@ -1,5 +1,1 @@
----
----
-
 # BugsBunnies CTF Writeups
-## CTFs
