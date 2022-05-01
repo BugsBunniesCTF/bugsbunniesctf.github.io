@@ -5,7 +5,6 @@ type: writeup
 title: Buffer Overflow 1
 ---
 
-# {{ page.title }}
 Simple Buffer Overflow.
 
 ```python
