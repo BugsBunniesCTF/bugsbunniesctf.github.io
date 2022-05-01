@@ -6,8 +6,8 @@ title: BugsBunnies
 <h2>Writeups</h2>
 <ul>
   {% for ctf in site.ctfs %}
+    <h3>{{ ctf.name }}</h3>
     {% for post in site.posts %}
-      <h3>{{ ctf.name }}</h3>
       {% if post.ctf == ctf.short_name %}
         <li>
           <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
