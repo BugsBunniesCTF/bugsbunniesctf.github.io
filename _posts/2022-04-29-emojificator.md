@@ -5,8 +5,6 @@ type: writeup
 title: The Emojificator
 ---
 
-# {{ page.title }}
-
 The Emojificator provided a web-service to extract bytes from emojis using clock-emojis as byte-index and plus- and minus-emojis to add and subtract two bytes.
 The resulting bytes could be run as bytecode by the webservice.
 The solution includes calculating all bytes from 0-255 by extraction of emoji-bytes and subsequent addition and subtraction.
