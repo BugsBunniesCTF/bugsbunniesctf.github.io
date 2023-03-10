@@ -3,6 +3,7 @@ author: HDhotdog
 ctf: nahamcon-ctf-2022
 type: writeup
 title: Call me Picasso
+tags: forensics
 ---
 
 Call me Picasso provided a mystery.zip which contained an .iq file containing [I/Q data](https://en.wikipedia.org/wiki/In-phase_and_quadrature_components). 
