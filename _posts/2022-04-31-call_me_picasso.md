@@ -2,6 +2,7 @@
 author: hdhotdog
 ctf: nahamcon-ctf-2022
 type: writeup
+layout: post
 title: Call me Picasso
 tags: forensics
 ---

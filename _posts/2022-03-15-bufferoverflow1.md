@@ -2,6 +2,7 @@
 author: vincentscode
 ctf: pico-ctf-2022
 type: writeup
+layout: post
 title: Buffer Overflow 1
 ---
 

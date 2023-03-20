@@ -1,22 +1,28 @@
 title: BugsBunnies
 url: https://www.bugsbunnies.tk
-description: A collection of writeups by the BugsBunnies ctf team.
+description: A collection of writeups by the BugsBunnies CTF team.
 favicon: "./logo.png"
 
 lsi: false
 safe: true
 
-remote_theme: abhinavs/moonwalk
+theme: moonwalk
 theme_config:
   appearance: "dark"
-  appearance_toggle: true
+  back_home_text: "cd .."
+  date_format: "%Y-%m-%d"
+  show_description: true
+  show_reading_time: true
+  show_tags: true
 
 highlighter: rouge
 
 plugins:
   - jekyll-feed
-  - jekyll-soopr-seo-tag
 
 collections:
- - authors
- - ctfs
+  authors:
+    output: false
+  ctfs:
+    output: true
+    sort_by: date

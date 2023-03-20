@@ -2,6 +2,7 @@
 author: vincentscode
 ctf: nahamcon-ctf-2022
 type: writeup
+layout: post
 title: The Emojificator
 ---
 
@@ -73,7 +74,7 @@ assert len(emoji_to_idx) == 256
 for em in all_emojis:
 	em_enc = em.encode('utf-8')
 	em_int = [x for x in em_enc]
-	
+
 	# print(em, "|", em_enc, "|", [hex(x) for x in em_enc], em_int)
 
 	for i in range(len(em_int)):

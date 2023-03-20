@@ -1,0 +1,21 @@
+<ul class="horizontal-list">
+  {% for ctf in site.ctfs reversed %}
+
+    <li class="card">
+      <a href="{{ ctf.url }}">
+        <span class="header">
+          {{ ctf.name }}
+        </span>
+
+        <hr />
+
+        {% if ctf.desc != false %}
+        <p class="body">
+          {{ ctf.desc }}
+        </p>
+        {% endif %}
+      </a>
+    </li>
+
+  {% endfor %}
+</ul>

@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<a href="/">{{ site.theme_config.back_home_text }}</a>
+<header>
+    <h1>{{ page.name }}</h1>
+</header>
+
+{% include list_writeups.html ctf=page.short_name %}

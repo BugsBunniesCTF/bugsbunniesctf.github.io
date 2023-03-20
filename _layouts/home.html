@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<header>
+  {% include horizontal_list.html collection=site.data.home.navbar_entries %}
+  <div class="dashed"></div>
+
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.description }}</p>
+</header>
+
+{{ content }}
+
+<h2>CTFs</h2>
+{% include list_ctfs.html %}
+
+<h2>Writeups</h2>
+{% include list_writeups.html %}

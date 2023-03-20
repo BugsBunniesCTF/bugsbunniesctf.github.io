@@ -1,0 +1,9 @@
+navbar_entries:
+  - title: about
+    url: about
+
+  - title: writeups
+    url: writeups
+
+  - title: github
+    url: https://github.com/BugsBunniesCTF
