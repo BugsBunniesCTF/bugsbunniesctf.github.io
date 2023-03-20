@@ -1,7 +1,7 @@
 title: BugsBunnies
 url: https://www.bugsbunnies.tk
 description: A collection of writeups by the BugsBunnies ctf team.
-favicon: "/assets/images/logo.png"
+favicon: "./logo.png"
 
 lsi: false
 safe: true
