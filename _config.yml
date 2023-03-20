@@ -6,7 +6,7 @@ favicon: "./logo.png"
 lsi: false
 safe: true
 
-theme: moonwalk
+remote_theme: BugsBunniesCTF/writeups
 theme_config:
   appearance: "dark"
   back_home_text: "cd .."
