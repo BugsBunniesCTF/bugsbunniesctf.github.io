@@ -1,6 +1,7 @@
 ---
 title: BugsBunnies
 ---
+
 <h1>{{ page.title }}</h1>
 
 <h2>Writeups</h2>
@@ -23,8 +24,7 @@ title: BugsBunnies
   {% for author in site.authors %}
     <li>
       <h2>{{ author.name }}</h2>
-      <p>{{ author.content | markdownify }}</p>
+      <!-- <p>{{ author.content | markdownify }}</p> -->
     </li>
   {% endfor %}
 </ul>
-

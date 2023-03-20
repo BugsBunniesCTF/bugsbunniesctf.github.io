@@ -1,9 +1,22 @@
+title: BugsBunnies
+url: https://www.bugsbunnies.tk
+description: A collection of writeups by the BugsBunnies ctf team.
+favicon: "/assets/images/logo.png"
+
 lsi: false
 safe: true
 
-theme: jekyll-theme-hacker
+remote_theme: abhinavs/moonwalk
+theme_config:
+  appearance: "dark"
+  appearance_toggle: true
 
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-soopr-seo-tag
 
 collections:
-  authors:
-  ctfs:
+ - authors
+ - ctfs
