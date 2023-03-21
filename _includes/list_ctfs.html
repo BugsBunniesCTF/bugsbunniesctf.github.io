@@ -9,11 +9,9 @@
 
         <hr />
 
-        {% if ctf.desc != false %}
         <p class="body">
-          {{ ctf.desc }}
+          Place {{ ctf.placement }} | {{ site.posts | where:"ctf", ctf.short_name | size }} Writeup(s)
         </p>
-        {% endif %}
       </a>
     </li>
 
